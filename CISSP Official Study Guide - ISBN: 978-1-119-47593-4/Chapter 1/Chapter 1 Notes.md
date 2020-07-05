@@ -58,20 +58,21 @@
 		* Accessibility: The assurance that the widest range of subjects can interact with a resource regardless of their capabilities or limitations.
 		* Timeliness: Being prompt, on time, within a reasonable time frame, or providing low-latency response.  
 
-	+ The AAA Services
-		* The AAA services stand for authentication, authorization, and accounting. However, there are more elements than just these three.
-		* The three elements of AAA services are as follows:
-			- Identification: Claiming to be an identity when attempting to access a secured area or system.
-			- Authentication: Proving you are that identity.
-			- Authorization: Defining the permissions of a resource and object access for a specific identity.
-			- Auditing: Recording a log of the events and activities related to the system and subjects.
-			- Accounting: Reviewing log files to check for compliance and violations in order to hold subjects accountable for their actions.
-		* Typically AAA is referenced in relation to authentication systems (TACACS+, Kerberos, 802.11x), but it is actually a foundational concept for security. Missing any of these five elements can result in an incomplete security mechanism.
-		* The 5 AAA services have chained dependencies on each other. See below.
-		* Identity
-			- Examples of providing an identity can include typing a username, swiping a smart card, waving a proximity device, speaking a phrase, and positioning your face, hand or finger for a camera or scanning device among other things.
-			- Without an identity, a system has no way to correlate an authentication factor with the subject. **Observer the relationship here**
-			- I.T. systems track activity by identities, not the subjects themselves. This is why things like password sharing, and social engineering are such significant problems.
+- The AAA Services
+	+ The AAA services stand for authentication, authorization, and accounting. However, there are more elements than just these three.
+	+ The three elements of AAA services are as follows:
+		* Identification: Claiming to be an identity when attempting to access a secured area or system.
+		* Authentication: Proving you are that identity.
+		* Authorization: Defining the permissions of a resource and object access for a specific identity.
+		* Auditing: Recording a log of the events and activities related to the system and subjects.
+		* Accounting: Reviewing log files to check for compliance and violations in order to hold subjects accountable for their actions.
+	+ Typically AAA is referenced in relation to authentication systems (TACACS+, Kerberos, 802.11x), but it is actually a foundational concept for security. Missing any of these five elements can result in an incomplete security mechanism.
+	+ The 5 AAA services have chained dependencies on each other. See below.
+	+ Identification --> Authentication --> Authorization --> Auditing --> Accounting
+	+ Identity
+		* Examples of providing an identity can include typing a username, swiping a smart card, waving a proximity device, speaking a phrase, and positioning your face, hand or finger for a camera or scanning device among other things.
+		* Without an identity, a system has no way to correlate an authentication factor with the subject. **Observer the relationship here**
+		* I.T. systems track activity by identities, not the subjects themselves. This is why things like password sharing, and social engineering are such significant problems.
 
 ## Chapter Terms ##
 
