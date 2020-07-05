@@ -68,18 +68,6 @@
 			- Accounting: Reviewing log files to check for compliance and violations in order to hold subjects accountable for their actions.
 		* Typically AAA is referenced in relation to authentication systems (TACACS+, Kerberos, 802.11x), but it is actually a foundational concept for security. Missing any of these five elements can result in an incomplete security mechanism.
 		* The 5 AAA services have chained dependencies on each other. See below.
-		
->	Identification
->	|
->	--> Authentication
->		|
->		--> Authorization
->			|
->			--> Auditing
->				|
->				--> Accounting
-
-- 
 		* Identity
 			- Examples of providing an identity can include typing a username, swiping a smart card, waving a proximity device, speaking a phrase, and positioning your face, hand or finger for a camera or scanning device among other things.
 			- Without an identity, a system has no way to correlate an authentication factor with the subject. **Observer the relationship here**
