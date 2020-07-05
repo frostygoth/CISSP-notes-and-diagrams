@@ -1,12 +1,12 @@
-#CISSP Chapter 1 Notes#
+# CISSP Chapter 1 Notes #
 
-##*Important Information About Source Citation*##
+## *Important Information About Source Citation* ##
 
 **Notes I've made from this chapter may be completely or partially extracted from the CISSP Official Study Guide ISBN: 978-1-119-47593-4. Although the format and additional thoughts may be my own, it is critical to give credit to the published document above. My notes are NOT exhaustive and I HIGHLY recommend that you purchase this book.**
 
 **Should the publisher of the above document have any issues with the references to their source material above, please make a pull request and we can get the issue resolved.**
 
-##Understand and Apply Concepts of Confidentiality, Integrity, and Availability##
+## Understand and Apply Concepts of Confidentiality, Integrity, and Availability ##
 
 - The three major security principals are confidentiality, integrity, and availability.
 	+ Confidentiality
@@ -85,7 +85,7 @@
 			- I.T. systems track activity by identities, not the subjects themselves. This is why things like password sharing, and social engineering are such significant problems.
 		* 
 
-##Chapter Terms##
+## Chapter Terms ##
 
 - Object: The passive element in a security relationship, such as files, computers, network connections, and applications. A subject acts upon or against an object.
 - Subject: The active element in a security relationship, such as users, programs, and computers. A subject acts upon or against an object.
